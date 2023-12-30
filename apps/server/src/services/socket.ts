@@ -1,15 +1,7 @@
 import { Server } from 'socket.io'
 import Redis from "ioredis";
 
-const redisUri = "redis://default:AVNS_JGiGGfBCJIuZX4Ox8KH@redis-30fee3aa-mohitchoudhary1054-chat-app.a.aivencloud.com:14053";
-
-// Initialize Redis clients
-const redisConfig = {
-    host: 'redis-30fee3aa-mohitchoudhary1054-chat-app.a.aivencloud.com',
-    port: 14054,
-    username: 'default',
-    password: 'AVNS_JGiGGfBCJIuZX4Ox8KH'
-};
+const redisUri = "REDIS-URI";
 
 
 const pub = new Redis(redisUri);
